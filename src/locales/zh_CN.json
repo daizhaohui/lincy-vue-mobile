@@ -1,0 +1,25 @@
+{
+  "home":{
+    "home": "首页",
+    "cart":"购物车",
+    "category":"分类",
+    "message":"消息",
+    "my": "我的",
+    "login": "登录"
+  },
+  "my":{
+    "order":"我的订单",
+    "account": "账户管理",
+    "address": "地址管理",
+    "about": "关于我们",
+    "setting": "系统设置",
+    "sign": "个人签名",
+    "nick": "昵称",
+    "loginName": "登录名"
+  },
+  "setting":{
+    "title": "系统设置",
+    "language": "当前语言",
+    "theme": "当前皮肤"
+  }
+}

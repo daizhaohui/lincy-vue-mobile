@@ -1,0 +1,36 @@
+  .drawer-layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+  }
+  .drawer-wrap {
+    position: absolute;
+    transform: translateZ(0);
+  }
+  .content-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    transform: translateZ(0);
+  }
+  .drawer-mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 88888888;
+  }
+  .moving {
+    transition: transform 0.3s ease;
+  }
+  .will-change {
+    will-change: transform;
+  }

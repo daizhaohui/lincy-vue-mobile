@@ -1,0 +1,25 @@
+{
+  "home":{
+    "home": "Home",
+    "cart":"Cart",
+    "category":"Category",
+    "message":"Message",
+    "my": "My",
+    "login": "login"
+  },
+  "my":{
+    "order":"my order",
+    "account": "account",
+    "address": "address",
+    "about": "about us",
+    "setting": "setting",
+    "sign": "personal sign",
+    "nick": "nick name",
+    "loginName": "login name"
+  },
+  "setting":{
+    "title": "system setting",
+    "language": "current language",
+    "theme": "current theme"
+  }
+}

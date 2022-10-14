@@ -1,0 +1,63 @@
+.user-wrapper {
+  .user-info {
+    width: 94%;
+    margin: 10px;
+    height: 115px;
+    background: linear-gradient(90deg, @primary, #51c7c7);
+    box-shadow: 0 2px 5px #269090;
+    border-radius: 6px;
+    .info {
+      position: relative;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      padding: 0.25rem 2rem;
+      box-sizing: border-box;
+      img {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        margin-top: 0.4rem;
+      }
+      .user-desc {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        color: #fff;
+        span {
+          color: #fff;
+          font-size: 1.4rem;
+          padding: 0.2rem 0;
+        }
+      }
+      .account-setting {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        font-size: 1.3rem;
+        color: #fff;
+        .van-icon-setting-o {
+          font-size: 1.6rem;
+          vertical-align: -3px;
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+  .user-list {
+    padding: 0 2rem;
+    margin-top: 2rem;
+    li {
+      height: 4rem;
+      line-height: 4rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.4rem;
+      .van-icon-arrow {
+        margin-top: 1.3rem;
+      }
+    }
+  }
+}
